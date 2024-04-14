@@ -1,0 +1,18 @@
+{
+  "name": "db4free",
+  "version": "1.0.0",
+  "description": "DB4free.net",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "npx cypress run",
+    "cy:open": "npx cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.3"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
